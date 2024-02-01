@@ -2,7 +2,7 @@ resource "aws_instance" "MyFirstEc2instance_from_terraform" {
   ami = "ami-0759f51a90924c166"
   instance_type = "t2.micro"
   tags = {
-    Name = "EC2_public_test"
+    Name = "EC2_public_test1"
   }
   key_name = "linux"
   user_data = <<-EOF
